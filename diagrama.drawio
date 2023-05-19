@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2023-05-19T00:34:11.222Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="2pVxDUMQmfCIQFo73HkP" version="21.3.2" type="device">
+  <diagram name="Página-1" id="Bmcchcn0rZYQ9C2hzfZU">
+    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6mlcMDJa2G-oxVCSFIdb-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="6mlcMDJa2G-oxVCSFIdb-3" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6mlcMDJa2G-oxVCSFIdb-4" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Aluno&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mlcMDJa2G-oxVCSFIdb-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;-Nome:&amp;nbsp; String&lt;br&gt;-Cpf: int&lt;br&gt;-RA: int&lt;br&gt;-Email: String&lt;br&gt;-Fone: String&lt;br&gt;-Data_Matricula: Date&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="230" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="6mlcMDJa2G-oxVCSFIdb-6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="310" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="6mlcMDJa2G-oxVCSFIdb-7" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Professor&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="310" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6mlcMDJa2G-oxVCSFIdb-8" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;- Nome: String&lt;br&gt;- Cpf: int&lt;br&gt;- RA: int&lt;br&gt;- Fone: String&lt;br&gt;- Email: String&lt;br&gt;- Data_Contratacao: Date&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="210" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="6mlcMDJa2G-oxVCSFIdb-9" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;- Id: int&lt;br&gt;- Turno: String&lt;br&gt;- Dia_Aula: String&lt;br&gt;- Uc: uc&lt;br&gt;- Salas: Salas&lt;br&gt;- Professor: Professor&lt;br&gt;- Aluno: Aluno&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="400" y="30" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="6mlcMDJa2G-oxVCSFIdb-10" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Turma&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="20" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6mlcMDJa2G-oxVCSFIdb-12" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="310" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="6mlcMDJa2G-oxVCSFIdb-13" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Salas&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="310" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6mlcMDJa2G-oxVCSFIdb-14" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;- Id: int&lt;br&gt;- Capacidade: int&lt;br&gt;- Predio: Predio&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="360" width="210" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="6mlcMDJa2G-oxVCSFIdb-15" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="610" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="6mlcMDJa2G-oxVCSFIdb-16" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Predio&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="610" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6mlcMDJa2G-oxVCSFIdb-17" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;- Numero_Salas_Aulas: int&lt;br&gt;- Id: int&lt;br&gt;- Campus: Campus&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="660" width="210" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="6mlcMDJa2G-oxVCSFIdb-19" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;- Nome: String&lt;br&gt;- Id: int&lt;br&gt;- Carga_Horaria: int&lt;br&gt;- Pc: Plano_Curricular&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="400" y="610" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="6mlcMDJa2G-oxVCSFIdb-20" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;UC&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="610" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6mlcMDJa2G-oxVCSFIdb-21" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;- Nome: String&lt;br&gt;- Id: int&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="890" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="6mlcMDJa2G-oxVCSFIdb-22" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Campus&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="890" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6mlcMDJa2G-oxVCSFIdb-23" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;-&amp;nbsp; Id: int&lt;br&gt;-&amp;nbsp; Nome_Plano: String&lt;br&gt;- Quantidade_Semestres: int&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="400" y="890" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="6mlcMDJa2G-oxVCSFIdb-24" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;PlanoCurricular&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="890" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6mlcMDJa2G-oxVCSFIdb-25" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;- Id: int&lt;br&gt;- Descricao: String&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="730" y="890" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="6mlcMDJa2G-oxVCSFIdb-26" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Conteudo_Curricular&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="890" width="210" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
