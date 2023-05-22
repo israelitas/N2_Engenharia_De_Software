@@ -1,4 +1,4 @@
-CREATE TABLE alunos (
+CREATE TABLE aluno (
     nome VARCHAR(255) NOT NULL,
     cpf BIGINT NOT NULL,
     ra BIGINT NOT NULL,
@@ -6,12 +6,12 @@ CREATE TABLE alunos (
     fone VARCHAR(20) NOT NULL
 )
 
-CREATE TABLE ucs (
+CREATE TABLE uc (
     carga_horaria BIGINT NOT NULL,
     nome VARCHAR(50) NOT NULL,
     id BIGINT NOT NULL,
     descricao VARCHAR(255),
-    id_alunos PK,
+    ra_aluno PK,
     id_professor PK 
 )
 
@@ -22,7 +22,7 @@ CREATE TABLE plano_curricular (
 )
 
 CREATE TABLE professor (
-    ra BIGINT NOT NULL,
+    id BIGINT NOT NULL,
     cpf BIGINT NOT NULL,
     nome VARCHAR(255),
     fone VARCHAR(20),
@@ -30,7 +30,7 @@ CREATE TABLE professor (
     data_contratacao TIMESTAMP NOT NULL,
 )
 
-CREATE TABLE turmas (
+CREATE TABLE turma (
     id BIGINT NOT NULL,
     turno VARCHAR(50),
     dia_aula VARCHAR(30),
@@ -45,13 +45,13 @@ CREATE TABLE campus (
     nome VARCHAR(50) NOT NULL
 )
 
-CREATE TABLE salas (
+CREATE TABLE sala (
     id BIGINT NOT NULL,
     capacidade INT NOT NULL,
     id_predios PK
 ) 
 
-CREATE TABLE predios (
+CREATE TABLE predio (
     id BIGINT NOT NULL,
     numero_salas_aula INT NOT NULL,
     id_campus PK
@@ -78,4 +78,14 @@ CREATE TABLE plano_conteudo (
 
 ALTER TABLE alunos ADD PRIMARY KEY(ra);
 
-ALTER TABLE ucs ADD 
+ALTER TABLE uc ADD PRIMARY KEY(id);
+ALTER TABLE uc ADD FOREIGN KEY(ra_aluno) REFERENCES aluno(ra);
+ALTER TABLE uc ADD FOREIGN KEY(id_professor) REFERENCES professor(id);
+
+
+ALTER TABLE plano_curricular ADD PRIMARY KEY(id);
+ALTER TABLE plano_curricular ADD FOREIGN KEY(id_uc) REFERENCES uc(id);
+
+ALTER TABLE professor ADD PRIMARY KEY(id);
+
+ALTER TABLE turma
