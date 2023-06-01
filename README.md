@@ -7,3 +7,6 @@
 3 - Código do modelo lógico.
 4 - Create Table (Scripts de criação do modelo físico).
 5 - Diagrama de classes.
+
+Aluno: Israel Andreotti
+Disciplina: Prática de engenharia de software
