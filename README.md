@@ -1,4 +1,4 @@
-# n2 - trabalho criação de scripts de banco de dados #
+# N2 - trabalho criação de scripts de banco de dados #
 
 ### Esse repositório contém: ###
 
